@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-list,.slick-slider,.slick-tracker{
+    padding: 0.5rem 0;
+}
