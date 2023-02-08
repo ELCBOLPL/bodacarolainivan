@@ -16,7 +16,7 @@ import { IconContext } from "react-icons";
 import { GrLinkedinOption } from "react-icons/gr";
 import { GoMarkGithub } from "react-icons/go";
 import { FaEnvelope } from "react-icons/fa";
-import CountdownTimer from '../Clock/CountdownTimer';
+
 
 const Home = () => {
   const THREE_DAYS_IN_MS = 205 * 24 * 60 * 60 * 1000;
@@ -91,7 +91,7 @@ const Home = () => {
           </Social>
         </Socials>
         
-          <CountdownTimer targetDate={dateTimeAfterThreeDays} />
+          {/* <CountdownTimer targetDate={dateTimeAfterThreeDays} /> */}
         
       </StyledHome>
     </IconContext.Provider>
