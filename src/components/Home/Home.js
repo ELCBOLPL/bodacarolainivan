@@ -19,9 +19,6 @@ import { FaEnvelope } from "react-icons/fa";
 
 
 const Home = () => {
-  const THREE_DAYS_IN_MS = 205 * 24 * 60 * 60 * 1000;
-  const NOW_IN_MS = new Date().getTime();
-  const dateTimeAfterThreeDays = NOW_IN_MS + THREE_DAYS_IN_MS;
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
