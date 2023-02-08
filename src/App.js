@@ -1,6 +1,6 @@
 import About from "./components/About/About";
 import Footer from "./components/Footer/Footer";
-import { MapContainer,TileLayer} from 'react-leaflet';
+// import { MapContainer,TileLayer} from 'react-leaflet';
 // import L from 'leaflet';
 import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar/Navbar";
@@ -16,6 +16,7 @@ import Technologies from "./components/Technologies/Technologies";
 import Hero from "./components/Hero/Hero";
 // import CountdownTimer from './components/Clock/CountdownTimer';
 import './App.css';
+import SliderV1 from "./components/SliderV1";
 // import LeafletGeocoder from "../src/components/LeafletGeocoder";
 // import leafletControlGeocoder from 'leaflet-control-geocoder'
 // import leafletControlGeocoder from 'leaflet-control-geocoder'
@@ -44,6 +45,8 @@ function App() {
             <ParallaxComponent />
             <Technologies />
             <Hero/>
+            <SliderV1/>
+
             <Footer />
           </>
         </ThemeProvider>
