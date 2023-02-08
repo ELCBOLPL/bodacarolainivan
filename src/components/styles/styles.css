@@ -1,0 +1,99 @@
+/* *, *:before, *:after {
+	 margin: 100;
+	 padding: 0;
+	 box-sizing: border-box;
+} */
+ body {
+	 background-color: black;
+	 font-size: 16px;
+	 text-rendering: optimizeLegibility;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+}
+ .slider {
+	 max-width: 100%;
+	 margin: 25px;
+	 overflow-x: hidden;
+	 transition: 0.4s ease-out transform;
+}
+ .slider:active {
+	 transform: scale(0.95);
+}
+ .slides {
+	 display: flex;
+	 list-style: none;
+	 will-change: transform;
+}
+ .slides:hover {
+	 cursor: grab;
+}
+ .slides:active {
+	 cursor: grabbing;
+}
+ .slides li:not(:last-of-type) {
+	 margin-right: 15px;
+}
+ .slides li div {
+	 height: 700px;
+	 width: 450px;
+	 background-size: cover;
+	 background-position: center top;
+	 background-repeat: no-repeat;
+	 user-select: none;
+}
+  
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .confettie-wrap {
+    background-color: rgb(180, 176, 204);
+    padding: 200px;
+  }
+  
+  .confettie-wrap h3 {
+    margin: 0;
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .carousel-wrapper {
+    display: grid;
+    place-content: center;
+    border-radius: 2rem;
+}
+.carousel-content {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+}
+.carousel-item {
+    position: absolute;
+    width: 10rem;
+    height: 10rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10rem;
+}
+.carousel-btns {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 6;
+}
+.carousel-btns button {
+    padding: 8px 15px;
+    width: 5rem;
+    background-color: #3e3e3e;
+    border-radius: 1rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}

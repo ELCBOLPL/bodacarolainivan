@@ -1,0 +1,68 @@
+.main-slide{
+    padding-top: 30px;
+}
+
+.carousel .slider-wrapper {
+ width: 50%;
+}
+
+.carousel .thumb {
+        width: 5%;
+        height: 50px;
+}
+
+.carousel {
+    text-align: center;
+}
+.carousel .slide {
+    background-color: #f8f9fa !important;
+  }
+  
+  /* style for prev/next button */
+  .container {
+    display: flex;
+    height: 100vh !important;
+    background-color: #0f0c29;
+
+  }
+  .slideshow {
+    margin: auto;
+    width: 60vw !important;
+    aspect-ratio: cal(16/9);
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px !important;
+
+  }
+
+  button {
+    padding: 16px;
+    font-size: 18px;
+    width: 64px;
+    aspect-ratio: 1;
+    border-radius: 32px;
+    border: none !important;
+    cursor: pointer;
+    text-align: center !important;
+    color: white !important;
+  }
+
+  button:hover {
+    background-color: #0f0c29;
+  }
+
+  .prevButton
+  {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%) !important;
+  }
+
+  .nextButton
+  {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%) !important;
+  }
